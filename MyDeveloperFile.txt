@@ -1,3 +1,5 @@
 Hi
 How are you today all,
 We learn how to create a file in sub branches and how to pull this files into main branch
+Tq to all for joining this session today.
+and good morning, good afte noon,good evening based on your time zone.
