@@ -1,0 +1,66 @@
+<apex:page >
+   <marquee bgcolor="green" scrollamount="5" direction="RIGHT" width="100%"><font face="impact" size="5" colour="green">MY DETAIL PAGE</font></marquee>
+    <apex:pageBlock title="My Family information">
+    </apex:pageBlock> 
+    
+    <apex:pageBlock title="My Address information">
+        <apex:pageBlockSection title="Office address">
+        </apex:pageBlockSection>
+         <apex:pageBlockSection title="Home address">
+        </apex:pageBlockSection>
+         <apex:pageBlockSection title="Perment address">
+        </apex:pageBlockSection>
+    </apex:pageBlock> 
+    
+    <apex:pageBlock title="My Job information">
+    </apex:pageBlock>
+    
+    <apex:pageBlock title="My Education information">
+        <apex:pageBlockSection title="School level">
+            
+            <u><b>1 to 2 Class</b></u><br/>
+            School Name:<br/>
+            GNANODAYA HIGH SCHOOL<br/>
+            <u>SCHOOL ADDRESS:</u><br/>
+            <b>Mission Kallali Road Bicknunda</b>
+             <u> <b>Abount the school:</b></u><br/>
+             Wonderful enviorment and full greenary school well educated teacger in this school
+            <br/><br/>
+            
+            <u>
+             <b>5 to 10 Class</b>   
+            </u><br/> 
+            <u><b>School Name:</b></u><br/> 
+            VISHWA BHARATHI HIGH SCHOOL<br/>
+            <b><u>SCHOOL ADDRESS:</u></b><br/>
+            <b>Near SBI Bank Banswada Road Bicknunda</b><br/>
+            <u><b>Abount the school:</b></u> <br/> 
+             Wonderful enviorment and full greenary school well educated teacger in this school
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="Intermediat level"> 
+            <u>
+             <b>Intermediate</b>   
+            </u><br/> 
+            <u><b>College Name:</b></u><br/> 
+            SRI VENKATA SAI JUNIOR COLLEGE<br/>
+            <b><u>COLLEGE ADDRESS:</u></b><br/>
+            <b>Mission Kallali Road Bicknunda</b><br/>
+            <u><b>Abount the College:</b></u> <br/> 
+             Wonderful enviorment and full greenary College well educated teacher in this school
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="Graduation level"> 
+   <marquee bgcolor="red" scrollamount="2" direction="RIGHT" width="90%"><font face="impact" size="5" colour="blue">PRAGNA DEGREE COLLEGE</font></marquee>
+             <u>
+             <b>Graduation</b>   
+            </u><br/> 
+            <u><b>College Name:</b></u><br/> 
+            PRAGNA DEGREE COLLEGE KAMAREDDY<br/>
+            <b><u>COLLEGE ADDRESS:</u></b><br/>
+            <b>Nizam sagar road near RK degree college</b><br/>
+            <u><b>Abount the College:</b></u> <br/> 
+             Wonderful enviorment and well seminar hall in college
+        </apex:pageBlockSection>
+    </apex:pageBlock> 
+</apex:page>

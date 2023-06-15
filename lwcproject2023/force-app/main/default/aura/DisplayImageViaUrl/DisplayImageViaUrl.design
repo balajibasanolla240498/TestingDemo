@@ -1,0 +1,6 @@
+<design:component>
+    <design:attribute name="url" label="Image Url"/>
+    <design:attribute name="height" label="Height"/>
+    <design:attribute name="width" label="Width"/>
+    <design:attribute name="align" label="Align"/>
+</design:component>

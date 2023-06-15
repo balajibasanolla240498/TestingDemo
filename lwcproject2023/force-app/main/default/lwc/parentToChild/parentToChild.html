@@ -1,0 +1,30 @@
+<template>
+    <div title="ApiProperty" 
+         style="background:#6e7db8; width:50rem; height:22rem;">
+
+
+        <div style="font-weight: bold; font-size: 2rem; color:#fec700; text-align: center;">
+          PARENT TO CHILD
+        </div>
+
+
+        <div style="margin:5px; font-size: 1.1rem; color:white;">
+                Increase the value to slow down the fan
+        <span style="font-weight: bold; ">[Parent]</span>
+        </div>
+
+            <!-- Below is Input field on Parent Component -->
+            <lightning-input label=" " 
+                            type="number" 
+                            min="0"
+                            max="100" 
+                            value={percentage} 
+                            onchange={handlePercentageChange}
+                            style="margin: 7px; width:100px;">
+            </lightning-input>
+
+        <!-- Below is the Child Component -->
+        <c-child-fan percentage={percentage}></c-child-fan>
+
+</div>
+</template>

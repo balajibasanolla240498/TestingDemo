@@ -1,0 +1,31 @@
+<template>
+<!--Parent component-->
+<lightning-card title='Custom Lookup2'>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>LWC 2</b><br/><br/>
+        &nbsp;&nbsp;&nbsp;<lightning-icon icon-name="custom:custom36" alternative-text="Connected" title="medium (default)"></lightning-icon>
+        &nbsp;&nbsp;&nbsp;&nbsp;<b>Bus List</b><br/><br/>
+
+        <!--user input-->
+        
+                <div class="slds-m-around_small" >
+                    <lightning-input    label="Search by Name" 
+                                        placeholder="Enter Bus Name here..."
+                                        type="search"
+                                        value={value}
+                                        onchange={HandleChange2}>
+                    </lightning-input><br/>
+                    
+                </div>
+        
+
+
+        <!--Called bus-search-component-->
+       
+                    <c-bus-search-component name={value}>
+
+                    </c-bus-search-component>
+          
+        
+</lightning-card>
+
+</template>

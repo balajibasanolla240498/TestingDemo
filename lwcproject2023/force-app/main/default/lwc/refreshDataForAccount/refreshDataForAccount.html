@@ -1,0 +1,31 @@
+<template>
+    <p>Spring 2023 LWC Update RefreshData with out page load... </p>
+
+    <lightning-card title="Refresh Data" variant="Narrow" icon-name="standard:account">
+        <div class="slds-var-p-around_medium">
+
+        <lightning-input type="text" 
+                         name="input1" 
+                         label="Enter Account Name" 
+                         placeholder="Enter Account Name here..."
+                         
+                         lwc:ref="nameRef">
+        </lightning-input>
+        
+       <!-- <lightning-input type="text" 
+                         name="input2" 
+                         label="Enter Account Type" 
+                         placeholder="Enter Account Type here..."
+                         value="accType"
+                         lwc:ref="typeRef">
+        </lightning-input>-->
+
+        <lightning-button label="Refresh View"
+                          variant="brand"
+                          onclick={submitHandler}>
+        </lightning-button>
+
+
+        </div>
+    </lightning-card>
+</template>

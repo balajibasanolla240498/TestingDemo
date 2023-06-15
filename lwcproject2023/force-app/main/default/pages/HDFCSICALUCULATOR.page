@@ -1,0 +1,105 @@
+<apex:page >
+<apex:form >
+      <apex:tabPanel >
+    		<apex:tab label="HDFC INTREST CAL'S" styleClass="TAB BOARDER">
+                <apex:pageBlock >
+          
+          <div class="Heading">
+                        <b>HDFC BANK HYDERABAD</b>
+          </div>
+          <style>
+          .Heading
+              {
+                  margin-top: 50px;
+                  margin-bottom: 50px;
+                  margin-left:170px;
+                               
+                 color:blue;
+                font-size: 40px;
+              }
+              	.TAB BOARDER
+               {             
+               border-color: blue;
+               border-style: inset;
+               }
+          
+          
+          </style>
+       <div class="border">
+           
+           <apex:image value="{!$Resource.HDFCIMAGE}" width="300" height="40" style="  margin-left:200px;"/><br/><br/>
+       <div class="kk">
+    <h2>
+        Simple Intrest Caluculator
+    </h2><br/><br/>
+    
+    <apex:outputLabel ><b>Enter The Principal Amount</b></apex:outputLabel><br/>
+    <apex:inputText styleClass="lw"/><br/><br/>
+    
+    <apex:outputLabel ><b>Enter The Tenure Amount</b></apex:outputLabel><br/>
+    <apex:inputText styleClass="lw"/><br/><br/>
+    
+    <apex:outputLabel ><b>Enter The Rate Of Intrest Amount</b></apex:outputLabel><br/>
+    <apex:inputText styleClass="lw"/><br/><br/>
+    		
+           <div class="button">
+               <apex:commandButton value="Caluculate"/><br/>
+           </div>   
+           
+           <apex:outputText ><b>The Amount At Maturity:-</b></apex:outputText>
+    
+       </div>
+       </div>
+   </apex:pageBlock>
+          
+          </apex:tab>
+    
+    
+    
+    </apex:tabPanel>
+     <style>
+    .kk
+        {
+        margin-left:250px;
+        }
+    </style>
+    <style>
+    .border
+        {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+        }
+    </style>
+    
+           <style>
+           .button
+               {
+                margin-left: 45px;
+               }
+               .lw
+               {
+               
+                 width: 200px;
+				 height:20px;
+                 background-color:blue;
+                 color:white;
+               }
+               
+			
+           
+           </style>
+    <style>
+    .TAB BOARDER
+        {
+          background-color:blue;
+        
+        }
+    
+    
+    </style>
+
+</apex:form>
+</apex:page>

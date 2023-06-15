@@ -1,0 +1,13 @@
+<!--Child Component-->
+<template>
+    <b>Child Component</b> 
+    <lightning-card title="Data Filler">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Name" name="name" value={name}></lightning-input>
+            <lightning-input label="Phone" name="phone" value={phone}></lightning-input>
+            <lightning-input label="Country" name="country" value={country}></lightning-input>
+            <lightning-button label="Pass Data" onclick={handlePassData}></lightning-button>
+        </div>
+    </lightning-card>
+    
+</template>
